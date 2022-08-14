@@ -24,14 +24,14 @@
   <distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://192.168.1.13:8081/repository/spring-release/</url>
+	      <!--<name>Landmark Technologies Releases Nexus Repository</name>-->
+	      <!--<url>http://192.168.1.13:8081/repository/spring-release/</url>-->
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://192.168.1.13:8081/repository/spring-snapshots/</url>
+	      <url>http://dev.ollegroup.com:8081/repository/myapp-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
